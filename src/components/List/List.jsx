@@ -10,21 +10,11 @@ import {
 } from "@material-ui/core";
 import PlaceDetails from '../PlaceDetails/PlaceDetails';
 import useStyles from "./styles";
-const List = () => {
+const List = ({places}) => {
   const classes = useStyles();
   const [type, setType] = useState("restaurant");
   const [rating, setRating] = useState("");
-  const places = [
-    { name: "Cool place" },
-    { name: "Cool place" },
-    { name: "Cool place" },
-    { name: "Cool place" },
-    { name: "Cool place" },
-    { name: "Cool place" },
-    { name: "Cool place" },
-    { name: "Cool place" },
-    { name: "Cool place" },
-  ];
+ 
   return (
     <div className={classes.container}>
       <Typography variant="h4" className={classes.title}>
