@@ -22,3 +22,23 @@ npm install
 npm start
 ```
 
+## features 
+------------
+- Fetching restaurnts based on its location from the search bar or going through the map 
+-  travel your way give you full review on the restaurant u choose 
+1. the meals they serving 
+2.  types of meals 
+3. reviews about the restaurant 
+4. the link to the website of the restaurant 
+5. The Rating of it from 5  Starts
+6. any awards the resturant got 
+7. link to the tripadvisior to review the restaurant there.
+- fetching hotels and rating them and search with the rate
+------------
+## Tech used 
+- Reactjs
+- material ui 
+- Axios 
+- Rapdi Api 
+- Google map react 
+- Jest
