@@ -10,9 +10,9 @@
 
 Travel your way is an advanced Travel Companion Application using Google Maps. With Geolocation, Google Maps API, Searching for places, Fetching restaurants, hotels and attractions based on location from specialized Rapid APIs, data filtering and much more
 
---
+
 ## how to install 
---
+
 Travel you way requires [Node.js](https://nodejs.org/) to run.
 Install the dependencies and start the server
 
